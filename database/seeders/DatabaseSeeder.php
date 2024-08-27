@@ -18,8 +18,5 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-
-         // Factoryクラスで定義した内容にもとづいてダミーデータを5つ生成し、Postテーブルに追加する
-         Post::factory()->count(5)->create();
     }
 }
